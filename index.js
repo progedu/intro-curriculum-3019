@@ -1,6 +1,9 @@
 'use strict';
 const http = require('http');
 const server = http.createServer((req, res) => {
+  res.writeHead(302, {
+    'Location': 'http://www.eiou.jp/'
+  });
   res.end();
 });
 const port = 8000;
