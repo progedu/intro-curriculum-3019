@@ -2,7 +2,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': 'https://www.nnn.ed.nico/pages/programming/'
+    'Location': 'http://store.steampowered.com/?l=japanese'
   });
   res.end();
 });
