@@ -1,6 +1,9 @@
 'use strict';
 const http = require('http');
 const server = http.createServer((req, res) => {
+  res.writeHead(302, {
+    'Location': 'http://b.hatena.ne.jp/'
+  });
   res.end();
 });
 const port = 8000;
