@@ -2,7 +2,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': 'http://www.nicovideo.jp/'
+    'Location': 'https://www.nnn.ed.nico/pages/programming/'
   });
   res.end();
 });
