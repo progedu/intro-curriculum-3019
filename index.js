@@ -2,7 +2,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': 'https://www.nicovideo.jp/'
+    'Location': 'https://mado.tdenc.com/'
   });
   res.end();
 });
