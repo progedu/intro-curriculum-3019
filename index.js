@@ -2,7 +2,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
     res.writeHead(302, {
-        'Location': 'https://www.nnn.ed.nico/'
+        'Location': 'http://css3generator.info/'
     });
     res.end();
 });
