@@ -1,6 +1,9 @@
 'use strict';
 const http = require('http');
 const server = http.createServer((req, res) => {
+  res.writeHead(302, {
+    'Location': 'https://ddragon.github.io/easyHTML/shooting/'
+  });
   res.end();
 });
 const port = 8000;
