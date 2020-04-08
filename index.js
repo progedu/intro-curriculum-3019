@@ -5,8 +5,9 @@ const server = http.createServer((req, res) => {
     'Location': 'https://www.nicovideo.jp/'
   });
   res.statusCode = 302;
+  const favorite_url = 'https://www.nicovideo.jp/';
   console.info(`ステータスコードは ${res.statusCode} です。`);
-  console.info('ニコニコ動画にリダイレクトしました。');
+  console.info(`${favorite_url} にリダイレクトしました。`);
   res.end();
 });
 const port = 8000;
