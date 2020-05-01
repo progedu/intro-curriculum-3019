@@ -1,0 +1,1 @@
+"use strict";var http=require("http"),server=http.createServer(function(t,e){e.writeHead(302,{Location:"https://www.nicovideo.jp/"}),e.end()}),port=8e3;server.listen(port,function(){console.info("Listening on "+port)});
