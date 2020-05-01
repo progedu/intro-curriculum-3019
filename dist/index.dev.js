@@ -1,13 +1,14 @@
 'use strict';
-const http = require('http');
-const server = http.createServer((req, res) => {
+
+var http = require('http');
+
+var server = http.createServer(function (req, res) {
   res.writeHead(302, {
     Location: 'https://www.nicovideo.jp/'
   });
   res.end();
 });
-const port = 8000;
-server.listen(port, () => {
+var port = 8000;
+server.listen(port, function () {
   console.info('Listening on ' + port);
 });
-
