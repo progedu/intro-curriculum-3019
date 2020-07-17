@@ -2,7 +2,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': 'https://www.nicovideo.jp/'
+    'Location': 'https://www.youtube.com/watch?v=ph1GU1qQ1zQ'
   });
   res.end();
 });
