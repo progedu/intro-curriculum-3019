@@ -4,6 +4,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(302, {
     Location: 'https://www.nicovideo.jp/'
   });
+  res.write('<p>ニコビデオに飛びます</p>');
   res.end();
 });
 const port = 8000;
