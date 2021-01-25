@@ -1,0 +1,8 @@
+{
+  "name": "intro-curriculum-3019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nibosea/intro-curriculum-3019.git",
+  "author": "nibosea <norihirogg@gmail.com>",
+  "license": "MIT"
+}
